@@ -1,3 +1,9 @@
+body {
+  background-image: url(candle1.jpg);
+  backdrop-filter: blur(20px);
+}
+/*                  NavBar */
+
 * {
   padding: 0;
   margin: 0;
@@ -154,4 +160,154 @@ header .header-right .reposivebar div {
   header .header-right .login-signup {
     display: none;
   }
+}
+.content img {
+  width: 10rem;
+  /* filter: blur(70px); */
+}
+/*                   SHOP NOW CONTAINER            */
+.about {
+  color: #54424b;
+  width: 600px;
+  height: 0px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.about h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  margin-top: 3%;
+  margin-left: 10%;
+  color: #54424b;
+  font-style: italic;
+}
+/*                  New Arrivals line                              */
+.hr-lines:before {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #54424b;
+}
+.hr-lines {
+  position: relative;
+  color: #54424b;
+}
+.hr-lines {
+  position: relative;
+  /*  new lines  */
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+.hr-lines:after {
+  content: " ";
+  height: 2px;
+  width: 130px;
+  background: #54424b;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+/*               Container New Arrivals                   */
+.container {
+  padding-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.col-sm-4 {
+  flex-basis: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(226, 202, 157);
+  text-align: center;
+  padding: 0px;
+}
+
+.image-text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.image-price {
+  margin: 0;
+  font-weight: bold;
+  color: #a287a3;
+}
+/*                          SCENTS LINE                             */
+
+.hr-lines1:before {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #54424b;
+}
+.hr-lines1 {
+  position: relative;
+  color: #54424b;
+}
+.hr-lines1 {
+  position: relative;
+  /*  new lines  */
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+.hr-lines1:after {
+  content: " ";
+  height: 2px;
+  width: 130px;
+  background: #54424b;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
 }

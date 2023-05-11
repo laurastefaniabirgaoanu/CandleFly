@@ -1,3 +1,5 @@
+"strict";
+//                     Reposive NavBar
 reposivebar = document.querySelector(".reposivebar");
 nav = document.querySelector("nav");
 reposivebar.onclick = function () {
